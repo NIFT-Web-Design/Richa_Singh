@@ -76,6 +76,10 @@ p {
     font-family: Montserrat;
         font-weight: bolder;
         cursor: pointer;
+
+}
+.navigation-chip:hover {
+  box-shadow:  1px 2px 3px 4px #8888;
 }
 .navigation-chip-active {
   background-color:#C62828;
@@ -88,7 +92,7 @@ p {
 }
 .tree-vertical-divider {
   border-left:3px solid #82ADA9;
-  height: 278vh;
+  height: 270vh;
 
 }
 .tree-card {
@@ -117,8 +121,8 @@ margin-left: 12%
     font-family: Montserrat;
 }
 .tree-card3 {
-  margin-top: -51%;
-  margin-left: 107%;
+  margin-top:66%;
+  margin-left: 3%;
   height: 700px;
   width: 550px;
   border-radius: 10px;
@@ -126,7 +130,7 @@ margin-left: 12%
 
 }
 .tree-card2 {
-  margin-top: -52%;
+  margin-top: 27%;
   height: 700px;
   width: 550px;
   border-radius: 10px;
@@ -134,8 +138,8 @@ margin-left: 12%
 
 }
 .tree-card4 {
-  margin-top: -51%;
-  margin-left: 107%;
+  margin-top: 27%;
+  margin-left: 3%;
   height: 700px;
   width: 550px;
   border-radius: 10px;
