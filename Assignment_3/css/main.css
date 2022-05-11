@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('Fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Fonts/Montserrat-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('Fonts/Inter-VariableFont_slnt,wght.ttf');
+}
+body {
+  margin-left: 8.5%;
+    margin-right: 8.5%;
+}
+h1 {
+  font-size: 48px;
+}
+h4 {
+  font-size: 18px;
+}
+p {
+  font-size: 16px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 9%;
+
+}
+.profile-img {
+  width: 500px;
+  height: 461px;
+
+}
+.profile-title {
+  color:#C62828;
+  font-family:Bebas Neue;
+  margin-top: 21%;
+  padding-left: 9.5%;
+
+}
+.profile-content {
+  font-size: 20px;
+  font-family: Montserrat;
+    padding-left: 9.5%;
+    margin-top: 9.5%;
+}
+.profile-content-details{
+
+  color:grey;
+}
+.profile-para {
+  text-align: justify;
+  margin-top: 10%;
+  font-family: Montserrat;
+}
+.profile-divider {
+  border-bottom: 3px solid #82ADA9;
+      margin-top: 6%;
+      margin-bottom: 8.5%;
+}
+.navigation-section {
+      margin: 0px 7% 0px 8%;
+}
+.navigation-chip {
+  color: #C62828;
+    border: 3px solid #C62828;
+    padding: 10px;
+    border-radius: 20px;
+    width: 164px;
+    display: inline-block;
+    text-align: center;
+    margin: 2.5%;
+    font-family: Montserrat;
+        font-weight: bolder;
+        cursor: pointer;
+}
+.navigation-chip-active {
+  background-color:#C62828;
+  color: white;
+}
+.grid-container-tree {
+  display: grid;
+  grid-template-columns: 49% 2% 49%;
+  margin-top: 4%;
+}
+.tree-vertical-divider {
+  border-left:3px solid #82ADA9;
+  height: 302vh;
+
+}
+.tree-card {
+  height: 700px;
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 4px #8888;
+  margin-top: 12%;
+
+}
+.card-content {
+  padding:10px;
+}
+.card-img {
+  border-radius: 10px;
+}
+.card-title {
+  position: absolute;
+margin-left: 12%
+}
+.card-para {
+    padding:4px 45px;
+    text-align: justify;
+    height: 300px;
+    overflow-y: scroll;
+    font-family: Montserrat;
+}
+.tree-card3 {
+  margin-top: -51%;
+  margin-left: 107%;
+  height: 700px;
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 4px #8888;
+
+}
+.tree-card2 {
+  margin-top: -52%;
+  height: 700px;
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 4px #8888;
+
+}
+.tree-card4 {
+  margin-top: -51%;
+  margin-left: 107%;
+  height: 700px;
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 4px #8888;
